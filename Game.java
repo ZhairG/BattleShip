@@ -1,10 +1,11 @@
 import java.util.Scanner;
 public class Game {   
     
+    // Metodo para posicionar los barcos
     public void tablero() {
             String[][] lista= {{" "," "," "," "," "," "," "," "," "},{" "," "," "," "," "," "," "," "," "},{" "," "," "," "," "," "," "," "," "},{" "," "," "," "," "," "," "," "," "},{" "," "," "," "," "," "," "," "," "},
             {" "," "," "," "," "," "," "," "," "},{" "," "," "," "," "," "," "," "," "},{" "," "," "," "," "," "," "," "," "},{" "," "," "," "," "," "," "," "," "}};
-            System.out.println("Jugador 1");
+            System.out.println("                         Jugador 1");
             System.out.println("     A     B     C     D     E     F     G     H     I");
             System.out.println("  -------------------------------------------------------");
             for (int fila = 0; fila < lista.length; fila++) {
@@ -15,10 +16,6 @@ public class Game {
             System.out.println("|");
             System.out.println("  -------------------------------------------------------");
             }
-    }
-    // Metodo para posicionar los barcos
-    public void pos() {
-
     }
     // Metodo para posicionar los tiros.
     public void tiros() {
