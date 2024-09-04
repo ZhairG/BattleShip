@@ -1,5 +1,5 @@
 # NBattle
-Juego hecho en Java
+### Juego hecho en Java
 
 ## Tematica: Batalla naval
 
