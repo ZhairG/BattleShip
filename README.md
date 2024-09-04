@@ -1,7 +1,8 @@
 # NBattle
 ### Juego hecho en Java
 
-## Tematica: Batalla naval
+## Tematica:
+### Batalla Naval
 
 ## Descomposicion del juego
 ### 1) Crear un metodo que posicione barcos de diferentes tamaños en un tablero para cada jugador.
