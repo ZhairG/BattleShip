@@ -24,16 +24,16 @@ public class Game {
         {" "," "," "," "," "," "," "," "," "},{" "," "," "," "," "," "," "," "," "},{" "," "," "," "," "," "," "," "," "},{" "," "," "," "," "," "," "," "," "}};
         System.out.println("                      Campo del Enemigo");
         System.out.println("     A     B     C     D     E     F     G     H     I");
-            System.out.println("  -------------------------------------------------------");
-            for (int fila = 0; fila < lista.length; fila++) {
-                System.out.print(fila+" ");
-                for (int columna = 0; columna < lista[fila].length; columna++) {
-                     System.out.print("|  "+lista[fila][columna]+"  ");
-                }
-                System.out.println("|");
-                System.out.println("  -------------------------------------------------------");
+        System.out.println("  -------------------------------------------------------");
+        for (int fila = 0; fila < lista.length; fila++) {
+            System.out.print(fila+" ");
+            for (int columna = 0; columna < lista[fila].length; columna++) {
+                System.out.print("|  "+lista[fila][columna]+"  ");
             }
-            tiros();
+            System.out.println("|");
+            System.out.println("  -------------------------------------------------------");
+        }
+        tiros();
     }
     // Metodo para posicionar los tiros.
     public void tiros() {
