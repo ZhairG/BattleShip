@@ -42,8 +42,8 @@ public class Game {
     // Función principal
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);  
-        // Usamos la clase BufferedReader para leer cadenas de texto
-        Game Game = new Game(); // Se crea un objeto
+        Game Game = new Game(); 
+        
         Game.tablero();
         int barcos=3;
         while (barcos>0) {
