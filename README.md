@@ -1,4 +1,4 @@
-# NBattle
+# BattleShip
 **Juego hecho en Java**
 
 ## Tematica
