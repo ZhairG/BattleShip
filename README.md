@@ -28,6 +28,6 @@
 - Crear una matriz para representar el tablero, donde se colocarán los barcos y se registrarán los disparos.
 - Lostableros deben ser inicializados con un símbolo para agua (por ejemplo, '~').
 ### 4) Implementar la lógica del juego: 
-- Colocar barcos: ○ Definir métodos para colocar barcos en el tablero, asegurando que no se superpongan y que estén dentro de los límites.
-- Realizar disparos: ○ Implementar la lógica para manejar los disparos, marcando los resultados en el tablero del oponente (agua, impacto, hundimiento).
-- Verificar victoria: ○ Comprobar si todos los barcos del oponente han sido hundidos para determinar si un jugador ha ganado.
+- Colocar barcos: Definir métodos para colocar barcos en el tablero, asegurando que no se superpongan y que estén dentro de los límites.
+- Realizar disparos: Implementar la lógica para manejar los disparos, marcando los resultados en el tablero del oponente (agua, impacto, hundimiento).
+- Verificar victoria: Comprobar si todos los barcos del oponente han sido hundidos para determinar si un jugador ha ganado.
