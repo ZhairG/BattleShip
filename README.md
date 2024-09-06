@@ -16,6 +16,7 @@
 - colocarBarco(jugador, fila, columna, longitud, orientacion): Disponer un barco en el tablero del jugador. 
 - realizarDisparo(jugador, fila, columna): Realizar un disparo en el tablero del oponente. 
 - verificarVictoria(jugador): Verificar si el jugador ha ganado.
+
 ### 2) Crear la clase **Jugador**: 
 #### Atributos: 
 - Nombredel jugador. 
