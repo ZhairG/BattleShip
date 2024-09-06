@@ -10,7 +10,7 @@
 #### Atributos: 
 - Tableros para dos jugadores. 
 - Matrices para representar los barcos en cada tablero. 
-- Tamañodel tablero (por defecto 10x10). 
+- Tamaño del tablero (por defecto 10x10). 
 #### Métodos: 
 - inicializarTableros(): Configurar los tableros vacíos. 
 - colocarBarco(jugador, fila, columna, longitud, orientacion): Disponer un barco en el tablero del jugador. 
