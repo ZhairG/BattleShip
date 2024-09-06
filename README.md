@@ -25,7 +25,8 @@
 #### Métodos: 
 - colocarBarco(fila, columna, longitud, orientacion): Disponer un barco en el tablero del jugador.
 - disparar(oponente, fila, columna): Realizar un disparo en el tablero del oponente.
-### 3) Crear el tablero del juego: Inicializar el tablero: 
+### 3) Crear el tablero del juego: 
+### Inicializar el tablero: 
 - Crear una matriz para representar el tablero, donde se colocarán los barcos y se registrarán los disparos.
 - Lostableros deben ser inicializados con un símbolo para agua (por ejemplo, '~').
 ### 4) Implementar la lógica del juego: 
